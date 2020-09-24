@@ -1,0 +1,42 @@
+body {
+    min-width: 100vw;
+    min-height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container {
+    text-align: center;
+    border: black 4px solid;
+    width: 300px;
+    
+    background-color: rgb(8, 88, 8);
+}
+
+#time {
+    font-weight: 600;
+    font-size: larger;
+    color: honeydew;
+    padding: 10px;
+}
+
+button {
+    border: honeydew 2px solid;
+    border-radius: 10px;
+    background-color: black;
+    color: honeydew;
+    padding: 4px 10px;
+    margin: 4px;
+}
+
+button:focus {
+    
+    outline: none;
+}
+
+button:hover {
+    background-color: rgb(73, 71, 71);
+}
+
+
